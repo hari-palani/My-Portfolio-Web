@@ -78535,9 +78535,10 @@ a7Z(a){return a>=this.gka()&&a<this.gqz()},
 i(a){var s=this
 return"Keyframe{startValue="+A.h(s.b)+", endValue="+A.h(s.c)+", startFrame="+A.h(s.r)+", endFrame="+A.h(s.w)+", interpolator="+A.h(s.d)+"}"}}
 A.q9.prototype={
-N(a){var s=this,r=null,q=s.c,p=q.a
-q=q.b
-return A.alH(A.p8(p*0.04),A.is(r,A.fn(A.jw(A.a([A.c6(r,q*0.04,r),A.Gn(s.f,q*0.2),A.c6(r,q*0.02,r),A.aoT(A.cg(s.d,r,r,A.d5().$4$color$fontSize$letterSpacing$shadows(B.i,p*0.1,4,A.a([B.cz],t.kO)),r),new A.a1j(s))],t.E),B.S,B.be,B.T),r,r),B.w,B.ht,r,r,r,r,r,r,r,r,r))}}
+N(a){var s,r=this,q=null,p=r.c,o=p.a
+p=p.b
+s=p*0.05
+return A.alH(A.p8(o*0.04),A.is(q,A.fn(A.jw(A.a([A.c6(q,s,q),A.Gn(r.f,p*0.25),A.c6(q,s,q),A.aoT(A.cg(r.d,q,q,A.d5().$4$color$fontSize$letterSpacing$shadows(B.i,o*0.1,4,A.a([B.cz],t.kO)),q),new A.a1j(r))],t.E),B.S,B.be,B.T),q,q),B.w,B.ht,q,q,q,q,q,q,q,q,q))}}
 A.a1j.prototype={
 $0(){return A.U7(this.a.e)},
 $S:0}
@@ -78614,7 +78615,7 @@ s=A.aoG(B.E0,!0,!0,!0)
 return A.aok(q,B.l,new A.GZ(s,r,B.bm,!1,r,r,B.xz,!1,r,4,B.aS,B.Ig,r,B.a_,r))}}
 A.Hu.prototype={
 N(a){var s=null,r=A.bP(a,s,t.w).w.a,q=r.b,p=A.c6(s,q*0.3,s)
-return A.fn(A.jw(A.a([p,new A.r6(q*0.4,r.a*0.7,new A.a1M(r),3,!1,1200,B.a0,!0,B.wQ,s),A.c6(s,q*0.2,s)],t.E),B.S,B.be,B.T),s,s)}}
+return A.fn(A.jw(A.a([p,new A.r6(q*0.5,r.a*0.8,new A.a1M(r),3,!1,1200,B.a0,!0,B.wQ,s),A.c6(s,q*0.2,s)],t.E),B.S,B.be,B.T),s,s)}}
 A.a1M.prototype={
 $2(a,b){return new A.q9(this.a,$.as7[b],$.arx[b],$.aGz[b],null)},
 $S:438}
